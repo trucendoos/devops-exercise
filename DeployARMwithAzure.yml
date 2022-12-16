@@ -15,7 +15,7 @@ steps:
     azureResourceManagerConnection: 'NewTest-ServiceConn'
     subscriptionId: 'bae062a5-d86b-4b96-adca-1b82de20f65d'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'recap-rg'
+    resourceGroupName: 'NewTest'
     location: 'West Europe'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/AzureDeploy.json'
