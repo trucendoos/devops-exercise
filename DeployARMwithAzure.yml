@@ -12,13 +12,13 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'AzureRmPipelineCon'
-    subscriptionId: '501dca37-c84d-4939-96be-b6c113a26721'
+    azureResourceManagerConnection: 'NewTest-ServiceConn'
+    subscriptionId: 'bae062a5-d86b-4b96-adca-1b82de20f65d'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'azurepipeline-rg1'
     location: 'West Europe'
     templateLocation: 'Linked artifact'
-    csmFile: 'CreateWebApp/AzureDeploy2.json'
+    csmFile: 'CreateWebApp/AzureDeploy.json'
     overrideParameters: -webAppName minlwlw123 
     deploymentMode: 'Incremental'
     deploymentName: 'davesDeployment'
