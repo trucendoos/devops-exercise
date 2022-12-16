@@ -13,7 +13,7 @@ steps:
   inputs:
     deploymentScope: 'Resource Group'
     azureResourceManagerConnection: 'NewTest-ServiceConn'
-    subscriptionId: '501dca37-c84d-4939-96be-b6c113a26721'
+    subscriptionId: 'bae062a5-d86b-4b96-adca-1b82de20f65d'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'NewTest'
     location: 'West Europe'
